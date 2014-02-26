@@ -58,7 +58,6 @@ body {
 	position: fixed;
 	right: 35px;
 	top: 20px;
-	line-height: 35px;
 }
 
 #signin{
@@ -88,6 +87,10 @@ body {
 	
 }
 
+.navbar.text {
+	padding-top: 10px;
+}
+
 .navbar a {
 	text-decoration: none;
 	color: black;
@@ -106,7 +109,7 @@ a:hover {
 	padding-top: 230px;
 }
 
-#search {
+.search {
 	display: block;
 	margin: 0 auto;
 	background-image: url('microphone.png');
