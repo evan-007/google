@@ -190,7 +190,7 @@ input:hover:not([type=submit]) {
 	border:  1px solid #DEDEDE;
 }
 
-input:focus {
+input:focus:not([type=submit]) {
 	border: 1px solid #00BFFF;
     border-radius: 2px;
 }
