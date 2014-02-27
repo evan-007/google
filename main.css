@@ -186,11 +186,11 @@ input:not([type=submit]) {
     padding: 10px;
 }
 
+input:hover:not([type=submit]) {
+	border:  1px solid #DEDEDE;
+}
+
 input:focus {
 	border: 1px solid #00BFFF;
     border-radius: 2px;
-}
-
-input:hover:not([type=submit]) {
-	border:  1px solid #DEDEDE;
 }
