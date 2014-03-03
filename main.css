@@ -167,7 +167,7 @@ a:hover {
 
 #footer {
 	background: linear-gradient(#F2F2F2, #F7F7F7);
-	height: 41px;
+	height: 31px;
 	
 }
 
@@ -181,16 +181,15 @@ a:hover {
 }
 
 .footer-left {
-
+	padding-top: 5px;
 	padding-left: 25px;
 	float: left;
-	line-height: 50px;
 }
 
 .footer-right {
+	padding-top: 5px;
 	float: right;
 	padding-right: 25px;
-	line-height: 50px;
 }
 
 input:not([type=submit]) {
